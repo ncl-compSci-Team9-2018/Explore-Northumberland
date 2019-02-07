@@ -1,0 +1,39 @@
+function changeQuestion() {
+
+  questionNumber++;
+
+  if(stage == "#game1"){
+
+    stage2 = "#game1"; stage = "#game2"
+
+  ;} else {
+
+    stage2 = "#game2"; stage = "#game1";
+
+  }
+
+  if (questionNumber < numberOfQuestions) {
+
+    displayQuestion();
+
+  }
+
+  $(stage2).animate({
+    "right": "+=800px"
+  }, "slow", function() {
+
+    $(stage2).css('right', '-1800px'); $(stage2).empty();
+
+  });
+
+  $(stage).animate({
+
+    "right": "+=800px"
+
+  },"slow", function() {
+
+    questionLock = false;
+
+  });
+
+}
