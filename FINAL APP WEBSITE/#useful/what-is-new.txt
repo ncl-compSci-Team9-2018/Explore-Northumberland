@@ -1,0 +1,14 @@
+14/02/2019 meeting, Vilius:
+Main page:
++Reorganized file structure
++Added tab icon (favicon)
++Redesigned main page
+
+What to do next:
+-Change font
+-Start implementing Features page like in our Marvel examples
+
+In the future:
+-Explain the idea behind the app logo (somewhere in website)
+
+Nice transitions: https://css-tricks.com/aos-css-driven-scroll-animation-library/
