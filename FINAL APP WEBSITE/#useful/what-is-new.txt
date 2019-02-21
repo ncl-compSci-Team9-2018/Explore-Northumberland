@@ -3,12 +3,15 @@ Main page:
 +Reorganized file structure
 +Added tab icon (favicon)
 +Redesigned main page
++Created feature page 
 
 What to do next:
 -Change font
--Start implementing Features page like in our Marvel examples
+-Create download page
 
 In the future:
 -Explain the idea behind the app logo (somewhere in website)
+-Do research of what other teams in previous have done, eg, look at the layout of their websites so that we can follow a similar layout, http://homepages.cs.ncl.ac.uk/2017-18/CSC2022/Team04/website/
+-
 
 Nice transitions: https://css-tricks.com/aos-css-driven-scroll-animation-library/
