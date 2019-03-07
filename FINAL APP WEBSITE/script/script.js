@@ -1,3 +1,24 @@
+// var x = 1;
+//
+// function quoteManager() {
+//   if (window.x = 0) {
+//     showQuote();
+//   }
+//   else if (window.x = 1) {
+//     hideQuote();
+//   }
+// };
+//
+// function hideQuote() {
+//   document.getElementById('quote').style.display = "none";
+//   window.x = 0;
+// }
+//
+// function showQuote() {
+//   document.getElementById('quote').style.display = "initial";
+//   window.x = 1;
+// }
+
 function toggle(id){
   $(".tile").hide();
   if(id == "restaurantSpan") {
