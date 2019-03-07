@@ -23,6 +23,12 @@ body, html {
   font-weight: 200;
 }
 
+/* .hero-text li {
+  font-weight: 400;
+  color: black;
+} */
+
+/* Check it out button in main page */
 #check-it-out {
   margin-top: 40px;
   border: 0;
@@ -75,9 +81,11 @@ body, html {
 
 #features {
   background-color: #8bbfac;
+  position: relative;
   height: 100%;
   background-size: cover;
   text-align: center;
+  padding: 70px;
 }
 
 #navbarBorder {
@@ -110,9 +118,7 @@ body, html {
 #featuresQuote {
   height: 10%;
   position: relative;
-  top: 10%;
-  left: 5%;
-  right: 10%;
+  margin-bottom: 50px;
 }
 
 #featuresQuoteText {
@@ -141,8 +147,8 @@ body, html {
 .vertical-menu {
   width: 40%;
   position: relative;
-  left: 5%;
-  top: 10%;
+  /* left: 5%;
+  top: 10%; */
 }
 
 .vertical-menu img {
@@ -162,30 +168,91 @@ body, html {
 }
 
 .vertical-menu a:hover {
-  background-color: #8bbfac;
+  background-color: inherit;
   cursor: pointer;
+  -webkit-transition: background-color 200ms linear;
+  -ms-transition: background-color 200ms linear;
+  transition: background-color 200ms linear;
 }
 
-#download {
-  background-color: #7b92b7;
+/* More text when hover in features menu */
+#feature1 #feature1-more {
+  display: none;
+}
+
+#feature1:hover #feature1-more {
+  display: initial;
+  -webkit-transition: background-color 200ms linear;
+  -ms-transition: background-color 200ms linear;
+  transition: background-color 200ms linear;
+}
+
+#feature2 #feature2-more {
+  display: none;
+}
+
+#feature2:hover #feature2-more {
+  display: initial;
+  -webkit-transition: background-color 200ms linear;
+  -ms-transition: background-color 200ms linear;
+  transition: background-color 200ms linear;
+}
+
+#feature3 #feature3-more {
+  display: none;
+}
+
+#feature3:hover #feature3-more {
+  display: initial;
+  -webkit-transition: background-color 200ms linear;
+  -ms-transition: background-color 200ms linear;
+  transition: background-color 200ms linear;
+}
+
+#feature4 #feature4-more {
+  display: none;
+}
+
+#feature4:hover #feature4-more {
+  display: initial;
+  -webkit-transition: background-color 200ms linear;
+  -ms-transition: background-color 200ms linear;
+  transition: background-color 200ms linear;
+}
+
+#feature5 #feature5-more {
+  display: none;
+}
+
+#feature5:hover #feature5-more {
+  display: initial;
+  -webkit-transition: background-color 200ms linear;
+  -ms-transition: background-color 200ms linear;
+  transition: background-color 200ms linear;
 }
 
 .tile {
-  background-color: #becbe0;
-  position: relative;
+  background-color: #eee;
+  position: absolute;
   left: 60%;
-  bottom: 25.5%;
-  height: 60%;
-  width: 30%;
+  bottom: 5%;
+  height: 600px;
+  /* width: 30%; */
+  padding: 5px;
   border-radius: 10px;
   font-weight: 200;
+}
+
+.tile img {
+  height: inherit;
+  padding: 5px;
 }
 
 .stick {
   position: relative;
   border-top: 20px solid transparent;
   border-bottom: 20px solid transparent;
-  border-right:20px solid #becbe0;
+  border-right:20px solid #eee;
   right: 99.5%;
 }
 
@@ -197,7 +264,7 @@ body, html {
   top: 13.5%;
 }
 
-#interfaceStick {
+#heritageStick {
   top: 25%;
 }
 
@@ -205,6 +272,42 @@ body, html {
   top: 36.5%;
 }
 
-#heritageStick {
+#interfaceStick {
   top: 48%;
+}
+
+#download {
+  background-image: linear-gradient(0deg, #f9b17c, #8bbfac);
+  height: 100%;
+  background-size: cover;
+  text-align: center;
+  position: relative;
+}
+
+#google-play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#google-play h2 {
+  font-family: Segoe UI, Helvetica, sans-serif;
+  /* font-weight: 200; */
+  font-style: italic;
+  color: white;
+  padding: 10px;
+  display:inline;
+  white-space:nowrap;
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#footer {
+  background-color: #f9b17c;
+  color: white;
+  padding: 10px;
+  padding-top: 20px;
+  padding-left: 20px;
 }
