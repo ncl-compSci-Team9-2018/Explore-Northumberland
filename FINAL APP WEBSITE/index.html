@@ -5,7 +5,7 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="styles/style.css">
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
     <link rel="icon" href="images/logo.png"> <!-- app logo in the tab (favicon) -->
     <title>Explore Northumberland</title> <!-- tab title-->
   </head>
@@ -64,11 +64,15 @@
       <div id="featuresQuote">
         <h2 id="featuresQuoteText">Here are some of the features of our app</h2>
       </div>
-      <div class="vertical-menu">
+      <div id="vertical-menu">
         <div onmouseover='toggle("restaurantSpan")' onmouseout='hide("restaurantSpan")' class="toggleable" id="feature1"><a><img src="images/restauranticon.svg" height="30" alt="Fork&Knife">Restaurants<span id="feature1-more"> around you</span></a></div>
-        <div onmouseover='toggle("activitySpan")' onmouseout='hide("activitySpan")' class="toggleable" id="feature2"><a><img src="images/mountainsicon.svg" height="30" alt="Mountain icon">Outdoor activites<span id="feature2-more"> in beautiful Norhumberland countryside</span></a></div>
+
+        <div onmouseover='toggle("activitySpan")' onmouseout='hide("activitySpan")' class="toggleable" id="feature2"><a><img src="images/mountainsicon.svg" height="30" alt="Mountain icon">Outdoor activites<span id="feature2-more"> in Northumberland</span></a></div>
+
         <div onmouseover='toggle("heritageSpan")' onmouseout='hide("heritageSpan")' class="toggleable" id="feature3"><a><img src="images/castleicon.svg" height="30" alt="Castle icon">Historical heritage<span id="feature3-more"> that you can discover</span></a></div>
-        <div onmouseover='toggle("navigationSpan")' onmouseout='hide("navigationSpan")' class="toggleable" id="feature4"><a><img src="images/mapicon.svg" height="30" alt="Map icon">Getting there<span id="feature4-more"> by various means of transport</span></a></div>
+
+        <div onmouseover='toggle("navigationSpan")' onmouseout='hide("navigationSpan")' class="toggleable" id="feature4"><a><img src="images/mapicon.svg" height="30" alt="Map icon">Getting there<span id="feature4-more"> by transport</span></a></div>
+
         <div onmouseover='toggle("interfaceSpan")' onmouseout='hide("interfaceSpan")' class="toggleable" id="feature5"><a><img src="images/gaugeicon.svg" height="30" alt="Gauce icon">Modern and responsive <span id="feature5-more">user interface</span></a></div>
       </div>
 

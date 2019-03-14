@@ -29,9 +29,9 @@ function toggle(id){
   }
   else if(id == "activitySpan") {
     $("#activityTile").show();
-    document.getElementById('features').style.backgroundColor = '#38b747';
+    document.getElementById('features').style.backgroundColor = '#66ba7f';
     document.getElementById('features').style["transition"] = "2s";
-    document.getElementById('download').style.backgroundImage = 'linear-gradient(0deg, #f9b17c, #38b747)';
+    document.getElementById('download').style.backgroundImage = 'linear-gradient(0deg, #f9b17c, #66ba7f)';
     // document.getElementById('download').style.transition = '500ms';
   }
   else if(id == "heritageSpan") {
