@@ -361,7 +361,7 @@ body, html {
       position: relative;
       left: 0%;
       top: -12%;
-      height: 30%;
+      height: 40%;
       padding-top: 4%;
       border-radius: 10px;
       width: 150px;
@@ -371,7 +371,6 @@ body, html {
 
   .tile img {
     position: relative;
-    /* right: 2%; */
     top: -7px;
     height: 100%;
     width: auto;
