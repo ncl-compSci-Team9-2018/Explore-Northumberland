@@ -311,12 +311,12 @@ body, html {
 /* Smartphones (portrait and landscape)(small) */
 @media screen and (min-height : 0px) and (max-width : 767px){
 
-  #quote {
+   #quote {
     width: 80%;
     margin-left: 10%;
   }
 
-  #navbarBorder {
+   #navbarBorder {
     width: 80%;
     margin: 0 auto;
   }
@@ -325,11 +325,11 @@ body, html {
     margin-left: -4%;
   }
 
-  #check-it-out {
+   #check-it-out {
     margin-top: 3%;
   }
 
-  #features {
+   #features {
     background-color: #8bbfac;
     position: relative;
     height: 100%;
@@ -350,10 +350,10 @@ body, html {
     font-family: Segoe UI, Helvetica, sans-serif;
     font-style: italic;
     text-align: center;
-    width: 120%;
+    padding-left: 11%;
   }
 
-  #featuresQuoteText {
+   #featuresQuoteText {
     font-size: 0.8em;
   }
 
@@ -364,7 +364,7 @@ body, html {
       height: 40%;
       padding-top: 4%;
       border-radius: 10px;
-      width: 150px;
+      width: 200px;
       align-items: center;
       margin: 0 auto;
   }
