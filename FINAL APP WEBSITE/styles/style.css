@@ -309,7 +309,7 @@ body, html {
 }
 
 /* Smartphones (portrait and landscape)(small) */
-@media screen and (min-width : 0px) and (max-width : 767px){
+@media screen and (min-height : 0px) and (max-width : 767px){
 
   #quote {
     width: 80%;
@@ -340,7 +340,8 @@ body, html {
 
   #vertical-menu {
     width: 100%;
-    margin-top: -20%;
+    position: relative;
+    top: -13%;
   }
 
   #featuresQuote {
@@ -359,16 +360,19 @@ body, html {
   .tile {
       position: relative;
       left: 0%;
-      top: 0.4%;
-      height: 50%;
+      top: -12%;
+      height: 30%;
       padding-top: 4%;
       border-radius: 10px;
-      width: 220px;
+      width: 150px;
       align-items: center;
       margin: 0 auto;
   }
 
   .tile img {
+    position: relative;
+    /* right: 2%; */
+    top: -7px;
     height: 100%;
     width: auto;
   }
