@@ -311,7 +311,7 @@ h1 {
   font-style: italic;
   color: white;
   padding: 10px;
-  display:inline; */
+  display:inline;
   white-space:nowrap;
   line-height: 1.5;
   display: inline-block;
@@ -325,6 +325,14 @@ h1 {
   padding-top: 20px;
   padding-left: 20px;
   text-align: center;
+}
+
+#dropboxImg {
+  width: 200px;
+}
+
+#emailLink {
+  color: #fff0c6;
 }
 
 /* Smartphones (portrait and landscape)(small) */
