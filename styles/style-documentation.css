@@ -155,3 +155,7 @@ a > .answer {
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
+#emailLink {
+  color: #fff0c6;
+}
