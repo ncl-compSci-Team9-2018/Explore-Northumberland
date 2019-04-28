@@ -9,7 +9,6 @@
 
 #navbarBorder {
   padding: 0px 10px 0px 20px;
-
 }
 
 .menu-text {
@@ -17,20 +16,20 @@
   min-width: 450px;
   text-align: center;
 }
-
+/*
 .return {
   font-style: italic;
-}
+} */
 
 .nav-item:hover {
   background: none;
   text-decoration: underline;
 }
 
-.nav-link {
+/* .nav-link {
   font-family: 'Playfair Display', serif;
   color: black;
-}
+} */
 
 .navbar.navbar-expand-lg.navbar-light.bg-white li a {
   color: black;
@@ -104,17 +103,18 @@ a > .answer {
   background-color: #ffda60;
 }
 
-h1 {
+/* h1 {
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
-}
+} */
 
 .member-container {
   margin: 20px;
   position: relative;
   display: inline-block;
   width: 277px;
+  color: white;
 }
 
 .team-member {

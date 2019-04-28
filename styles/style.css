@@ -23,11 +23,10 @@ body, html {
   font-weight: 200;
 }
 
-/* Check it out button in main page */
+/* 'Check it out' button in main page */
 #check-it-out {
   margin-top: 40px;
   border: 0;
-  /* border-radius: 12px; */
   outline: 0;
   display: inline-block;
   padding: 10px 25px;
@@ -47,8 +46,18 @@ body, html {
   text-decoration: none;
 }
 
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
 .nav-link {
   font-size: 16pt;
+  font-family: 'Playfair Display', serif;
+  color: black;
+}
+
+.return {
+  font-style: italic;
 }
 
 .mr-auto a:hover {
@@ -60,12 +69,17 @@ body, html {
 
 .nav-item {
   height: 10%;
+  color: black;
+}
+
+.nav-item:hover {
+  background: none;
+  text-decoration: underline;
 }
 
 #quote {
-  font-family: Segoe UI, Helvetica, sans-serif;
-  font-style: italic;
-  font-size: 16pt;
+  font-family: 'Playfair Display', serif;
+  font-size: 20pt;
   font-weight: 200;
   background-color: white;
   margin-top: 20px;
@@ -73,7 +87,10 @@ body, html {
   padding-top: 20px;
   vertical-align: middle;
   color: black;
-  /* border-radius: 12px; */
+}
+
+#larger {
+  font-size: 22pt;
 }
 
 #features {
@@ -276,6 +293,12 @@ body, html {
   position: relative;
 }
 
+h1 {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 #google-play {
   position: absolute;
   top: 50%;
@@ -283,13 +306,12 @@ body, html {
   transform: translate(-50%, -50%);
 }
 
-#google-play h2 {
+#google-play h1 {
   font-family: Segoe UI, Helvetica, sans-serif;
-  /* font-weight: 200; */
   font-style: italic;
   color: white;
   padding: 10px;
-  display:inline;
+  display:inline; */
   white-space:nowrap;
   line-height: 1.5;
   display: inline-block;
