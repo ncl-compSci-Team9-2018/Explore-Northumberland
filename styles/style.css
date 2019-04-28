@@ -23,11 +23,6 @@ body, html {
   font-weight: 200;
 }
 
-/* .hero-text li {
-  font-weight: 400;
-  color: black;
-} */
-
 /* Check it out button in main page */
 #check-it-out {
   margin-top: 40px;
@@ -56,13 +51,15 @@ body, html {
   font-size: 16pt;
 }
 
-.nav-item {
-  height: 10%;
+.mr-auto a:hover {
+  color: #ed2f2f !important;
+  -webkit-transition: color 200ms linear;
+  -ms-transition: color 200ms linear;
+  transition: color 200ms linear;
 }
 
-.nav-item:hover {
-  background-color: #d7d9dd;
-  transition: 0.6s;
+.nav-item {
+  height: 10%;
 }
 
 #quote {
@@ -227,24 +224,23 @@ body, html {
 }
 
 .tile {
-  background-color: #eee;
   position: absolute;
   left: 60%;
   bottom: 5%;
-  height: 600px;
+  height: 70%;
   padding: 5px;
   border-radius: 10px;
   font-weight: 200;
 }
 
-.tile img {
+.phoneImg {
   height: inherit;
   padding: 5px;
   margin-top: -45px;
   border-radius: 10px;
 }
 
-.stick {
+/* .stick {
   position: relative;
   border-top: 20px solid transparent;
   border-bottom: 20px solid transparent;
@@ -270,7 +266,7 @@ body, html {
 
 #interfaceStick {
   top: 48%;
-}
+} */
 
 #download {
   background-image: linear-gradient(0deg, #f9b17c, #8bbfac);
@@ -360,7 +356,7 @@ body, html {
   .tile {
       position: relative;
       left: 0%;
-      top: 0.4%;
+      top: 5%;
       height: 50%;
       padding-top: 4%;
       border-radius: 10px;
@@ -382,7 +378,7 @@ body, html {
 
 /* Medium tablet */
 @media screen and (min-width : 768px) and (max-width : 1023px){
-  .tile {
+  /* .tile {
       background-color: #eee;
       position: absolute;
       left: 60%;
@@ -391,12 +387,12 @@ body, html {
       padding: 5px;
       border-radius: 10px;
       font-weight: 200;
-  }
+  } */
 }
 
 /*Desktops, big landscape tablets and laptops(Large, Extra large)*/
 @media screen and (min-width: 1024px){
-  .tile {
+  /* .tile {
       background-color: #eee;
       position: absolute;
       left: 60%;
@@ -405,5 +401,5 @@ body, html {
       padding: 5px;
       border-radius: 10px;
       font-weight: 200;
-  }
+  } */
 }
